@@ -1,0 +1,500 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.429;
+}
+
+a {
+  text-decoration: none;
+  color: #0C419A;
+  font-weight: normal;
+}
+a:hover { text-decoration: underline; }
+
+p {
+  font-size: 15px;
+  color: #333333;
+  line-height: 30px;
+}
+
+#pageHead {
+  padding-bottom: 120px;
+}
+.nri {
+  float: left;
+  padding-top: 6px;
+  margin-left: 40px;
+}
+.topicon {
+  float: right;
+  margin-top: 0px;
+}
+.serch {
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+}
+.earth {
+  position: relative;
+  bottom: 15px;
+}
+.menu {
+  margin-left:35px;
+}
+
+#topic {
+  width: 980px;
+  margin: 0 auto;
+}
+.topicPath {
+  color: #999999;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+.topicPath a {
+  color: #999999;
+  font-size: 12px;
+}
+.topicPath a:hover { text-decoration: none; }
+
+.main {
+  position:relative;
+  background-image: url("../images/top.jpg");
+  background-size: cover;
+  padding-top: 250px;
+  margin: 0 auto;
+}
+
+.covercatchcopy {
+  width: 1000px;
+  margin: 0 auto;
+}
+.catchcopy1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  position: absolute;
+  font-weight: normal;
+  top: 20px;
+}
+
+.catchcopy2 {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 70px;
+}
+
+.snslink {
+  width: 800px;
+  margin: 0 auto;
+  text-align: right;
+  margin-top: 50px;
+}
+.share {
+  font-size: 12px;
+  font-weight: 700;
+  color: #666;
+}
+.snsimages {
+  float: right;
+  margin-left: 20px;
+}
+
+.maincontent {
+  width: 750px;
+  margin: 0 auto;
+}
+.blue {
+  vertical-align: middle;
+}
+.maintext {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.pdflink {
+  padding-bottom: 20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 280px;
+  height: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 0.5px;
+  background-color: #005BAC;
+  text-align: center;
+}
+.btn a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.btn a:hover {
+  opacity: 0.7;
+}
+.btn a:after {
+  content:" ";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  background: url("../images/pdf.png");
+}
+.btn a:before {
+  content: url("../images/bluepoint.png");
+  position: relative;
+  top: 20px;
+}
+
+.pageinfo {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+}
+.left {
+  text-align: left;
+  float: left;
+}
+.left:before {
+  content: url("../images/leftpoint.png");
+  position: relative;
+  top: 3px;
+}
+.right {
+  text-align: right;
+  float: right;
+}
+.right:after {
+  content: url("../images/rightpoint.png");
+  position: relative;
+  top: 3px;
+}
+
+.maintable {
+  width: 800px;
+  margin: 0 auto;
+}
+.tableinfo {
+  background-color: #deecf8;
+  border-collapse: separate;
+  border-spacing: 20px;
+  width: 800px;
+}
+.topinfo {
+  background-color: #deecf8;
+  padding-left: 20px;
+  padding-top: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+.tableinfo th{
+  background-color: #FFFFFF;
+  padding: 15px;
+  border: solid 1px #CCC;
+  text-align: left;
+}
+.tableinfo a:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 13px;
+}
+
+#pageBodySub {
+  margin-top: 150px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.foottopic {
+  font-size: 20px;
+  color: #333333;
+  text-align: left;
+  border-top: solid 2px #333333;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.foottable {
+  text-align: left;
+  border-collapse : separate ;
+}
+.foottable caption {
+  border-top: dotted 1px #333;
+  padding-top:40px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.foottable a {
+  font-size: 14px;
+}
+.foottable tr th {
+  padding: 10px;
+  padding-right: 75px;
+  padding-left: 0px;
+}
+.foottable tr th:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.foottable2 {
+  text-align: left;
+  border-collapse : separate ;
+}
+.foottable2 caption {
+  border-top: dotted 1px #333;
+  padding-top:40px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.foottable2 a {
+  font-size: 14px;
+}
+.foottable2 tr th {
+  padding: 10px;
+  padding-right: 65px;
+  padding-left: 0px;
+}
+.foottable2 tr th:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.foottable3 {
+  text-align: left;
+  border-collapse : separate ;
+}
+.foottable3 caption {
+  border-top: dotted 1px #333;
+  padding-top:40px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.foottable3 a {
+  font-size: 14px;
+}
+.foottable3 tr th {
+  padding: 10px;
+  padding-right: 175px;
+  padding-left: 0px;
+}
+.foottable3 tr th:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.foottable4 {
+  text-align: left;
+  border-collapse : separate ;
+}
+.foottable4 caption {
+  border-top: dotted 1px #333;
+  padding-top:40px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.foottable4 a {
+  font-size: 14px;
+}
+.foottable4 tr th {
+  padding: 10px;
+  padding-right: 190px;
+  padding-left: 0px;
+}
+.foottable4 tr th:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.prevlink {
+  padding-bottom: 60px;
+  border-top: dotted 1px #333;
+  padding-top: 30px;
+}
+
+#pageBodybottom {
+  padding-top: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+.bottomsns {
+  margin-top: 45px;
+  padding: 0.5em 0;
+  border-top: solid 2px #999;
+  border-bottom: solid 2px #999;
+}
+.primaryinfo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #005bac;
+  text-align: center;
+}
+.bottomsnsimage {
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+#pageFoot {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.bottominfo h3 {
+  color: #333;
+  padding: 0.5em 0;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+  margin-right: 13px;
+}
+.bottominfo h3 a{
+  color: #000000;
+  font-size: 16px;
+}
+.bottominfo h3:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+.bottominfo div {
+  width: 240px;
+  float: left;
+}
+.bottominfo:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.bottominfo a{
+  color: #666666;
+  font-size: 13px;
+}
+.bottominfo ul li {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 50px;
+}
+.bottominfo ul {
+  padding-left: 0;
+}
+.bottominfo ul li:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.bottominfo2 h3 {
+  color: #333;
+  padding: 0.5em 0;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+  margin-right: 13px;
+}
+.bottominfo2 h3 a{
+  color: #000000;
+  font-size: 16px;
+}
+.bottominfo2 h3:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+.bottominfo2 div {
+  width: 240px;
+  float: left;
+  text-align: left;
+}
+.bottominfo2:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.bottominfo2 a{
+  color: #666666;
+  font-size: 13px;
+}
+.bottominfo2 ul li {
+  list-style: none;
+}
+.bottominfo2 ul {
+  padding-left: 0;
+}
+.bottominfo2 ul li:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.bottominfo3 h3 {
+  padding: 0.5em 0;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+  margin-right: 13px;
+}
+.bottominfo3 div {
+  width: 240px;
+  float: left;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.bottominfo3 h3 a{
+  color: #000000;
+  font-size: 16px;
+}
+.bottominfo3 h3:before {
+  content: url("../images/point.png");
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+.bottominfo3:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.pagelink {
+  width: 980px;
+  margin: 0 auto;
+}
+.pagelink a {
+  font-size: 12px;
+  color: #999999
+}
+.pagelink a:hover { text-decoration: underline; }
+
+.pagelink li{
+  display: inline;
+  margin-right: 1px;
+  border-left: solid 1px #999999;
+  padding: 0 10px;
+}
+.pagelink li:first-child {
+  border-left: none;
+}
+
+#copyright {
+  float: left;
+}
