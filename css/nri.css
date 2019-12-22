@@ -117,13 +117,17 @@ p {
   padding-bottom: 20px;
   margin-left:auto;
   margin-right:auto;
-  width: 280px;
-  height: 60px;
+  width: 270px;
+  height: 50px;
   margin-top: 40px;
   margin-bottom: 40px;
   padding-top: 0.5px;
   background-color: #005BAC;
   text-align: center;
+}
+.btn {
+  line-height: 3px;
+  margin-top: 10px;
 }
 .btn a {
   color: #FFFFFF;
@@ -137,7 +141,7 @@ p {
   display: inline-block;
   width: 20px;
   height: 20px;
-  margin-left: 15px;
+  margin-left: 12px;
   background: url("../images/pdf.png");
 }
 .btn a:before {
@@ -187,17 +191,15 @@ p {
   text-align: left;
   font-weight: bold;
 }
+
 .tableinfo th{
   background-color: #FFFFFF;
-  padding: 15px;
+  padding: 18px;
   border: solid 1px #CCC;
-  text-align: left;
-}
-.tableinfo a:before {
-  content: url("../images/point.png");
-  position: relative;
-  top: 3px;
-  right: 13px;
+  text-align: center;
+  background-image: url("../images/point.png");
+  background-repeat: no-repeat;
+  background-position: 0 16px;
 }
 
 #pageBodySub {
@@ -390,8 +392,8 @@ p {
 }
 .bottominfo ul li {
   list-style: none;
-  padding-left: 0;
-  padding-right: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 .bottominfo ul {
   padding-left: 0;
@@ -436,6 +438,7 @@ p {
 }
 .bottominfo2 ul li {
   list-style: none;
+  padding-top: 10px;
 }
 .bottominfo2 ul {
   padding-left: 0;
@@ -477,7 +480,6 @@ p {
 
 .pagelink {
   width: 980px;
-  margin: 0 auto;
 }
 .pagelink a {
   font-size: 12px;
@@ -485,14 +487,18 @@ p {
 }
 .pagelink a:hover { text-decoration: underline; }
 
+.pagelink ul {
+  padding-left: 0;
+}
 .pagelink li{
   display: inline;
   margin-right: 1px;
   border-left: solid 1px #999999;
-  padding: 0 10px;
+  padding-left: 10px;
 }
 .pagelink li:first-child {
   border-left: none;
+  padding-left: 0;
 }
 
 #copyright {
