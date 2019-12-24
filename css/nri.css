@@ -192,7 +192,7 @@ p {
   font-weight: bold;
 }
 
-.tableinfo th{
+.tableinfo th {
   background-color: #FFFFFF;
   padding: 18px;
   border: solid 1px #CCC;
@@ -335,6 +335,12 @@ p {
   padding-bottom: 60px;
   border-top: dotted 1px #333;
   padding-top: 30px;
+}
+.prevlink:before {
+  content: url("../images/point2.png");
+  position: relative;
+  top: 3px;
+  right: 6px;
 }
 
 #pageBodybottom {
